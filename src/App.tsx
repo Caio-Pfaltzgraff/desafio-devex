@@ -22,7 +22,7 @@ function App() {
       )
       setIcon(response.data.current.weather_icons[0])
       setTemperatura(response.data.current.temperature)
-      setTemperatura(response.data.current.wind_speed)
+      setvelocidadeVento(response.data.current.wind_speed)
       setPrecip(response.data.current.precip)
       setPressure(response.data.current.pressure)
     })
